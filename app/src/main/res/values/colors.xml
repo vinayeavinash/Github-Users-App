@@ -7,15 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
     <color name="primaryDark">#FF121212</color>
     <color name="primaryLight">#2e2d2d</color>
-
     <color name="navItemClicked">#FFFFFFFF</color>
     <color name="navItemNotClicked">#b3adad</color>
-
     <color name="tabSelected">#fff</color>
     <color name="tabNotSelected">#b3adad</color>
-
-
 </resources>
