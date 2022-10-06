@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_refresh_user_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:descendantFocusability="blocksDescendants"
+        android:padding="@dimen/user_detail_distance_views">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/siv_user_detail_avatar"
+            android:layout_width="@dimen/user_detail_avatar_size"
+            android:layout_height="@dimen/user_detail_avatar_size"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/ShapeableImageCircular"
+            tools:srcCompat="@mipmap/ic_launcher" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/tv_user_detail_bio"
+            app:layout_constraintStart_toEndOf="@+id/siv_user_detail_avatar"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:id="@+id/tv_user_detail_fullname"
+                style="@style/DetailTextFullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/user_detail_distance_views"
+                android:maxLength="25"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="@string/user_detail_fullname" />
+
+            <TextView
+                android:id="@+id/tv_user_detail_username"
+                style="@style/DetailTextUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_user_detail_fullname"
+                app:layout_constraintTop_toBottomOf="@id/tv_user_detail_fullname"
+                tools:text="@string/user_detail_username" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/tv_user_detail_bio"
+            style="@style/DetailTextBio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/user_detail_distance_views"
+            android:maxLength="150"
+            android:text="@string/user_detaill_bio_label"
+            app:layout_constraintLeft_toLeftOf="@id/siv_user_detail_avatar"
+            app:layout_constraintTop_toBottomOf="@id/siv_user_detail_avatar" />
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout_user_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/primaryLight"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_user_detail_bio"
+            app:tabIndicatorColor="@color/tabSelected"
+            app:tabSelectedTextColor="@color/tabSelected"
+            app:tabTextColor="@color/tabNotSelected" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager_user_detail"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tab_layout_user_detail"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

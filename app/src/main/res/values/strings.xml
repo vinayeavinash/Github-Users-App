@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">GithubUserapplication</string>
+    <!-- for splashscreen label -->
+    <string name="splash_screen_title_label">GitHub UsersApp</string>
+
+    <!-- for actionbar -->
+    <string name="action_bar_title_home">Home</string>
+    <string name="action_bar_find">Find</string>
+    <string name="action_bar_title_profile">Profile</string>
+    <string name="action_bar_title_user_details">User Details</string>
+
+    <!-- for headline in home ui -->
+    <string name="headline_1_text">Welcome to GitHub Community!</string>
+    <string name="headline_2_text">The home for all developers , including you.</string>
+    <string name="home_user_list_label">People you may know</string>
+
+    <!-- for bottom nav -->
+    <string name="bottom_nav_menu_home">Home</string>
+    <string name="bottom_nav_menu_profile">Profile</string>
+    <string name="bottom_nav_menu_find">Find</string>
+
+    <!-- for item user ui -->
+    <string name="item_user_username">jakeWraton</string>
+    <string name="item_user_detail_icon_content_description">Detail Button</string>
+    <string name="item_user_content_description_format">%d photo</string>
+
+    <!-- for user detail ui -->
+    <string name="user_detail_fullname">Rully Ihza Mahendra</string>
+    <string name="user_detail_username">rllyhz</string>
+    <string name="user_detail_company_name">Soal-Web</string>
+    <string name="user_detail_location">Semarang, Central Java, Indonesia.</string>
+    <string name="user_detaill_bio_label">Bio</string>
+    <string name="user_detail_bio">Take a deep breath for better ideas ☺</string>
+    <string name="user_detail_blog">rllyhz.github.io</string>
+    <string name="user_detail_following_followers">18 followers - 22 followings</string>
+    <string name="user_detail_repository">43 repositories</string>
+    <string name="user_detail_following_label">Following</string>
+    <string name="user_detail_followers_label">Followers</string>
+
+    <!-- for  find user  ui -->
+
+    <string name="explore_search_hint">Search your developers…</string>
+    <string name="explore_user_list_label">Result</string>
+    <string name="explore_content_desc_search_icon">Search Icon</string>
+    <string name="explore_content_desc_illustration_icon">Illustration Explore the world</string>
+    <string name="explore_headline"> Find Your Developers</string>
+
+
+    <!-- for feedback message -->
+    <string name="error_message_label">Error</string>
+    <string name="error_message">Sorry, something went wrong :(</string>
+    <string name="redirect_message">Sorry, unauthorized activity</string>
+    <string name="error_message_description">This happens maybe because of there is no connection or something unexpected internally occurred.</string>
+    <string name="success_message">Successfully fetched!</string>
+    <string name="result_not_found_message">Not found!</string>
+    <string name="functionality_not_implemented_message">This functionality hasn\'t been implemented yet</string>
+    <string name="toolbar_menu_item_change_language_label">Change Language</string>
+    <string name="content_description_logo">Logo App</string>
+
+    <!-- for splashscreen label -->
+    <string name="content_description_splash_label">by vinaye.developer@gmail.com</string>
+
+
+</resources>

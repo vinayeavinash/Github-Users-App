@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_screen_logo_size">130dp</dimen>
+    <dimen name="splash_screen_bottom_label_margin">15dp</dimen>
+
+    <dimen name="splash_imageview_height">130dp</dimen>
+    <dimen name="splash_imageview_width">130dp</dimen>
+    <dimen name="bottom_nav_radius_size">16dp</dimen>
+
+    <dimen name="home_user_list_height">460dp</dimen>
+
+    <dimen name="item_user_radius_size">38dp</dimen>
+    <dimen name="item_user_avatar_size">75dp</dimen>
+    <dimen name="item_user_icon_size">32dp</dimen>
+
+    <dimen name="user_detail_avatar_size">82dp</dimen>
+    <dimen name="user_detail_icon_size">18dp</dimen>
+    <dimen name="user_detail_distance_views">16dp</dimen>
+    <dimen name="user_detail_view_pager_height">380dp</dimen>
+
+    <dimen name="profile_avatar_size">82dp</dimen>
+    <dimen name="profile_margin_top_edit_button">16dp</dimen>
+    <dimen name="profile_margin_horizontal_edit_button">16dp</dimen>
+    <dimen name="profile_follows_repo_margin">60dp</dimen>
+    <dimen name="profile_margin_to_guideline_horizontal">24dp</dimen>
+    <dimen name="profile_view_pager_height">380dp</dimen>
+    <dimen name="explore_icon_size">24dp</dimen>
+
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="HeadlineContainerBackgroundShape">
+        <item name="cornerSizeBottomRight">5%</item>
+        <item name="cornerSizeBottomLeft">5%</item>
+        <item name="cornerSizeTopRight">5%</item>
+        <item name="cornerSizeTopLeft">5%</item>
+    </style>
+
+    <style name="ShapeableImageItemUserRounded">
+        <item name="cornerSize">@dimen/item_user_radius_size</item>
+    </style>
+
+    <style name="ShapeableImageCircular">
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="android:fontFamily">@font/sf_regular</item>
+
+
+    </style>
+
+
+    <style name="ExploreSearchView" parent="Widget.AppCompat.Light.SearchView">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="commitIcon">@null</item>
+        <item name="goIcon">@null</item>
+        <item name="hintTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+
+</resources>

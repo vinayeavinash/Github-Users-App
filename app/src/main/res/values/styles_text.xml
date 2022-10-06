@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    //splash screen
+
+    <style name="SplashScreenTitleLabelNew">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/sf_bold</item>
+    </style>
+
+    <style name="SplashScreenTitleLabel">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/sf_bold</item>
+    </style>
+
+
+    //common
+
+    <style name="TextLight" parent="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/sf_regular</item>
+    </style>
+
+    <style name="TextMedium" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/sf_semi_bold</item>
+    </style>
+
+    <style name="TextBold" parent="TextAppearance.AppCompat.Small">
+        <item name="android:fontFamily">@font/sf_bold</item>
+    </style>
+
+
+    // ui specific
+
+    <style name="SplashTextTitle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/sf_bold</item>
+    </style>
+
+    <style name="SplashTextBottomLabel" parent="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/sf_regular</item>
+    </style>
+
+    <style name="NavBottomItemTexLabel" parent="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/sf_semi_bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+    <style name="HomeTextBannerTitleLabel">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/sf_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="HomeTextBannerSubLabel">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/sf_semi_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="HomeTextPeopleLabel">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/sf_bold</item>
+        <item name="android:textColor">@color/primaryLight</item>
+    </style>
+
+    <style name="HomeTextAlertLabel">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/sf_semi_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="HomeTextListUserName">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/sf_semi_bold</item>
+        <item name="android:textColor">@color/primaryLight</item>
+    </style>
+
+    <style name="FindSearchTextHint">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/sf_bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="FindNotFoundTextHint">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/sf_bold</item>
+        <item name="android:textColor">@color/primaryLight</item>
+    </style>
+
+
+    <style name="DetailTextUserName">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/sf_semi_bold</item>
+        <item name="android:textColor">@color/primaryLight</item>
+
+
+    </style>
+
+    <style name="DetailTextFullName">
+        <item name="android:fontFamily">@font/sf_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/primaryLight</item>
+
+
+    </style>
+
+    <style name="DetailTextBio">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/primaryLight</item>
+
+
+    </style>
+
+    <style name="DetailTextFollowLabel">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+
+
+    </style>
+
+    <style name="DetailTextFollowingLabel">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="DetailTextFollowingListUserName">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="SearchTextAlertLabel">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="SearchTextCenterLabel">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/sf_semi_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="SearchTextResultLabel">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
+
+
