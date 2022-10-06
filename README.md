@@ -1,10 +1,10 @@
 # GithubUsersapp
 
-*Browse our favourite github developers in  your fingertips
+*Browse favourite github developers in  your fingertips
 
 *You can browse and search your developers
 
-*You can see the details of developers like name username, avatar , bio, followers, following 
+*You can acess the details of developers like Name Username, Avatar , Bio, Followers, Following 
 
 
 
